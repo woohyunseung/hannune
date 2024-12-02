@@ -1,0 +1,156 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+body::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+@keyframes enter{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+body{
+    background-color: #0c0d0e;
+    animation: enter 1.25s;
+    font-family: "Pretendard Variable", Pretendard;
+}
+a{
+    color: #3388ff;
+    text-decoration: none;
+}
+@keyframes fadein{
+      0% {
+          opacity: 0;
+      }
+      50%{
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+}
+#header{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -1;
+}
+#header-title{
+    color: #fff;
+}
+#content{
+    width: 1200px;
+    margin: 80px auto 0 auto;
+}
+#main-title{
+    font-weight: 600;
+    font-size: 48px;
+    background: linear-gradient(to bottom, #fff 50%, #444 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    letter-spacing: -1;
+    padding-bottom: 10px;
+}
+#main-desc{
+    font-size: 22px;
+    color: #ccc;
+    text-align: center;
+    letter-spacing: -1;
+}
+#main-announce{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 400;
+    margin: 40px auto 0 auto;
+    background-color: #17191c;
+    border-radius: 100px;
+    width: 800px;
+    height: 50px;
+}
+#card-wrap{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+.card{
+    float: left;
+    background-color: #17191c;
+    width: 285px;
+    height: 360px;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    transition: 0.2s;
+}
+.card:hover{
+    transform: translateY(-20px);
+}
+.card-image{
+    width: 285px;
+    height: 265px;
+    border-radius: 15px 15px 0px 0px;
+    background-size: 100%;
+}
+#youtube .card-image{
+    background-image: url('./media/card-youtube.png');
+}
+#chzzk .card-image{
+    background-image: url('./media/card-chzzk.png');
+}
+#soop .card-image{
+    background-image: url('./media/card-soop.png');
+}
+#discord .card-image{
+    background-image: url('./media/card-discord.png');
+}
+.card-title{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-desc{
+    font-size: 14px;
+}
+.section{
+    float: left;
+    margin-bottom: 60px;
+}
+.section-title{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -1;
+    padding-bottom: 20px;
+}
+.section-detail{
+    color: #fff;
+    font-size: 20px;
+}
+.contents{
+    width: 285px;
+    height: 140px;
+    background-color: #17191c;
+}
+#footer{
+    float: left;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #ccc;
+    letter-spacing: -1;
+}
